@@ -63,5 +63,5 @@ npm test                          # unit tests for the verification and limit ru
 `POST /api/submissions` · `GET /api/submissions` · `GET /api/wallet` · `GET /api/shops` · `GET|POST /api/redemptions` · `POST /api/shop/apply` · `GET|PATCH /api/shop/me` · `POST /api/shop/verify` · `GET /api/admin/review` · `POST /api/admin/review/[id]` · `GET /api/admin/shops` · `POST /api/admin/shops/[id]` · `GET /api/admin/stats` · `GET /api/impact` · `GET|POST /api/pickups` · `POST /api/pickups/[id]` (cancel, confirm) · `GET /api/worker/pickups` · `POST /api/worker/pickups/[id]` · `GET /api/municipal/pickups` · `POST /api/municipal/pickups/[id]` (assign, verify, cancel) · `GET /api/municipal/workers` · `GET /api/municipal/analytics`
 
 ## Not built yet / before a real launch
-Pickup notifications (SMS/push) · worker location or route planning · complaints for missed pickups · `prisma migrate dev` has not been run for the `Pickup` model and new roles, so run it before first use · 
+Pickup notifications (SMS/push) · worker location or route planning · 
 Coin expiry after 6 months · Redis-backed rate limiting for multi-instance hosting · production SMS template (DLT in India) · accuracy testing of the AI on real local waste photos · a legal review of the coin rules · decision on who funds shop discounts.
